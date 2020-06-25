@@ -1,0 +1,1010 @@
+/* Globel */
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../images/blackwood.jpg);
+  background-attachment: fixed;
+  background-color: #1c1f20;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.iconwrap {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.iconname {
+  margin: 0 10px;
+  padding: 0;
+  color: #000000;
+  font-size: 1.6em;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+#icon {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  height: 20px;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+#iconpage {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  height: 20px;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+/* Globel Navagation Bar */
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 15%;
+  /*height: 100%;*/
+  position: absolute; /* was 'fixed' */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  background-color: #f4f4f4;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+#logo {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-bottom: 2px solid;
+  border-color: #000000;
+  /*border-image: url(../images/blackwood.jpg);
+  border-image-width: 100%;*/
+  
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 2px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.navwrap {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-shadow: 2px 2px 3px #666666;
+  border-bottom: 1px solid #000000;
+}
+
+.current a {
+  margin: 0;
+  padding: 0;
+  color: #2b1de8;
+}
+
+nav a:hover {
+  color: #2b1de8;
+}
+
+.menu-toggle {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  float: right;
+  line-height: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Globel Body */
+
+main {
+  margin: 0 0 0 15%;
+  padding: 0;
+}
+
+/* Globel Footer */
+
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /*height: 100px;*/
+  color: #000000;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  font-weight: bold;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: center;*/
+}
+
+.copyrights {
+  margin: 0;
+  padding: 10px 0 0 0;
+  /*background-color: #a3021d;*/
+}
+
+.footericon {
+  /*background-color: #022235;*/
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+
+footer i {
+  margin: 0;
+  padding: 0;
+}
+
+/* HOME PAGE */
+
+/* HOME PAGE About Section */
+
+.wrap {
+  margin: 10px 20px 10px 30px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.about {
+  margin: 0 30px 0 0;
+  padding: 20px;
+  width: 85%;
+  height: 330px;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  background-color: #f4f4f4;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.titles {
+  margin: 0;
+  padding: 0;
+}
+
+.titles h1 {
+  margin: 0;
+  padding: 15px 0 0 0;
+  text-align: left;
+  padding-left: 10px;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.titles h2 {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 3em;
+  letter-spacing: 0.04em;
+  font-style: italic;
+  text-decoration-line: underline;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+.titles h3 {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.titles h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.about p {
+  margin: 0;
+  padding: 15px;
+}
+
+/* HOME PAGE Showcase Section */
+
+
+#showimage {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 410px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* HOME PAGE Boxes Section */
+
+.boxes {
+  margin: 30px 50px 30px 60px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.box h3 {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.box p {
+  margin: 0;
+  padding: 15px;
+}
+
+/* PROJECTS PAGE Cards Section */
+
+.cards {
+  margin: 20px 20px 35px 20px;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 48% 4% 48%;
+}
+
+.blank {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f4f4f4;
+  border-radius: 30px 30px;
+  -moz-border-radius: 30px 30px;
+  -webkit-border-radius: 30px 30px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.namebar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.website {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+}
+
+.iconbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.iconwrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content p {
+  margin: 0;
+  padding: 20px;
+}
+
+/* CONTACT PAGE */
+
+/* CONTACT PAGE Form Section */
+
+#email {
+  margin: 50px 0 0 2%;
+  padding: 0;
+  width: 30%;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+  background-color: #ffffff;
+}
+
+#email:hover {
+  margin: 50px 0 0 2%;
+  padding: 0;
+  width: 30%;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 3px #666666;
+  background-color: #ffffff;
+  border-style: inset;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.dark{
+  margin: 15px 0 30px 0;
+  padding: 15px;
+  color:#35424a;
+  background-color:#ffffff;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+#sidebar{
+  margin: 10px 0 0 2%;
+  padding: 0;
+  width: 80%;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#sidebar input, #sidebar textarea{
+  margin: 0;
+  padding: 10px;
+  width: 90%;
+  border-style: inset;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#sidebar .button_1 {
+  margin: 10px 0 0 0;
+  padding: 0;
+  width: 100px;
+  font-size: 1.2em;
+  border-style: outset;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+#sidebar .button_1:hover {
+  margin: 10px 0 0 0;
+  padding: 0;
+  width: 100px;
+  font-size: 1.2em;
+  border-style: inset;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#photo {
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+
+#photo img {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+/* ARCHITECHTURE & SYSTEM DESIGN PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.text-box {
+  margin: 15px 3%;
+  padding: 1px 15px;
+  background-color: #ffffff;
+  font-size: 1.2em;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+
+/* HARDWARE AND OPERATING SYSTEMS PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  background-color: #ffffff;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  background-color: #ffffff;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.operating-systems {
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+
+/* PROGRAMMING PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.ram-image {
+  height: 400px;
+  width: 400px;
+}
+
+.memory {
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* DATA & STORAGE PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* NETWORKING PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* QUALITY INSURANCE PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* SECURITY PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* PROFESSIONAL SKILLS $ PROJECT MANAGEMENT PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+/* FRONTEND DEVELOPMENT PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.wrapper {
+  margin: 0 10% 0 10%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+}
+
+.title {
+  margin: 0 10px 10px 10px;
+  padding: 0;
+  border: #0d4b6e;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 5px;
+  border-right: hidden;
+  border-left: hidden;
+}
+
+.title h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.title a {
+  margin: 0;
+  padding: 0;
+  color: #bb1f25;
+  font-style: italic;
+}
+
+.photobox {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.photo  {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 200px; 
+}
+
+.photobox p {
+  margin: 0 0 10px 0;
+  padding: 0;  
+}
+
+/* COMPUTER SKILLS PAGE */
+
+/*  */
+
+.hardware-wrap {
+  margin: 0 3%;
+  padding: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 45% ;
+}
+
+.hardware-image {
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labeled-parts1 {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+.labeled-parts2 {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  -moz-box-shadow: 5px 5px 5px 5px #000000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: #000000;
+}
+
+
+/* ICON ID'S */
+
+/* Scroll on Nav menu */
+.fa-scroll {
+  color: #0099cc;
+}
+
+/* Diagram on Nav menu */
+.fa-project-diagram {
+  color: #0d9409;
+}
+
+/* Envelope on Nar menu */
+.fa-envelope {
+  color: #a3021d;
+}
+
+/* Menu-Toggle bars */
+.fa-bars {
+  color: #fff;
+}
+
+/* JavaScript Icon */
+.fa-js {
+  color: #f7f706;
+}
+
+/* HTML Icon */
+.fa-html5 {
+  color: #f78c22;
+}
+
+/* CSS Icon */
+.fa-css3-alt {
+  color: #0099cc;
+}
+
+/* PHP Icon */
+.fa-php {
+  color: #7543c5;
+}
+
+/* WordPress Icon */
+.fa-wordpress {
+  color: #000000;
+}
+
+/* BootStrap Icon */
+.fa-bootstrap {
+  color: #7543c5;
+}
+
+/* Linux Icon */
+.fa-linux {
+  color: #000000;
+}
+
+/* GitHub Icon */
+.fa-github-square {
+  color: #0e0e0f;
+}
+
+/* MEDIA SECTION */
+
+/* Cell Phones Section */
+
+@media (max-width: 800px)
+
+ {
+  margin: ;
+  padding: ;
+  width: ;
+  height: ;
+  position: ;
+}
+
+/* Tablets Section */
+
+@media (max-width: 950px)
+
+ {
+  margin: ;
+  padding: ;
+  width: ;
+  height: ;
+  position: ;
+}

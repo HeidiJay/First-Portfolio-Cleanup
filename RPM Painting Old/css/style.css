@@ -1,0 +1,261 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Header **/
+header{
+  background-color: #35424a;
+  padding-top:3px;
+  min-height:50px;
+  height: 90px;
+  border-bottom:#1eb1d6 3px solid;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+header #branding{
+  position: relative;
+  float:left;
+  margin:0;
+  top: 0;
+  left: 0;
+}
+
+header #branding img{
+  margin: 0;
+}
+
+header #branding h2{
+  margin: 25px 5px;
+  float: right;
+}
+
+/* Hamburger for Media */
+
+.menu-toggle {
+  color: #fff;
+  float: right;
+  line-height: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+header nav{
+  float:right;
+  margin: 33px;
+}
+
+header li{
+  display:inline;
+  padding: 25px 15px 0 15px;
+}
+
+header nav a{
+  color: #ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:17px;
+}
+
+header nav a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+header nav .current a{
+  color: #1eb1d6;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:450px;
+  background:url('../images/housesize1.jpg') no-repeat 0 -270px;
+  text-align:center;
+  color:#ffffff;
+  border-bottom:#1eb1d6 3px solid;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#showcase p{
+  font-size:20px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+/* E-mail */
+#email{
+  padding:5px;
+  color:#ffffff;
+  background:#35424a;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#email h1{
+  float:left;
+}
+
+#email form {
+  float:right;
+  margin-top:15px;
+}
+
+#email input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#070670;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:200px;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: #35424a;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header .menu-toggle,
+  header nav,
+  header nav li,
+  #email h1,
+  #email form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header #branding{
+    position: absolute;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 40%;
+    cursor: pointer;
+    display: right;
+  }
+
+  header nav {
+    position: absolute;
+    margin: 2px;
+    width: 30%;
+    background: #fff;
+    top: 0;
+    left: -33%;
+    transition: 0.5s;    
+  }
+
+  header nav.current {
+    left: 0;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #email button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #email form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
